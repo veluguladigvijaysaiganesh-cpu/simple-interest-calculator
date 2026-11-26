@@ -29,23 +29,7 @@ Where:
 ### Web Application
 Simply open `index.html` in any modern web browser.
 
-### Bash Script
-```bash
-chmod +x simple-interest.sh
-./simple-interest.sh
-```
 
-## Project Structure
-```
-├── index.html              # Web-based Simple Interest Calculator
-├── simple-interest.sh      # Bash script for Simple Interest calculation
-├── README.md               # Project documentation
-├── LICENSE                 # Apache 2.0 License
-├── CODE_OF_CONDUCT.md     # Code of Conduct
-└── CONTRIBUTING.md        # Contribution guidelines
-```
-
-## License
 This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
 
 ## Author
