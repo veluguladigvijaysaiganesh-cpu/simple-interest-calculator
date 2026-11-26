@@ -1,2 +1,52 @@
-# simple-interest-calculator.
-A simple interest calculator is an online or software tool that estimates interest earned or payable on a principal amount without compounding. It calculates returns or borrowing costs solely on the original principal over a set time period.
+# Simple Interest Calculator
+
+## Project Name
+**Simple Interest Calculator** — A web-based application and Bash script to compute simple interest.
+
+## Description
+This project provides a **Simple Interest Calculator** that computes simple interest based on user-provided inputs: **Principal**, **Rate of Interest**, and **Time Period**.
+
+The formula used is:
+
+```
+Simple Interest (SI) = (P × R × T) / 100
+Total Amount = P + SI
+```
+
+Where:
+- **P** = Principal Amount (the initial amount of money)
+- **R** = Annual Rate of Interest (in %)
+- **T** = Time Period (in years)
+
+## Features
+- Clean, modern web interface for calculating simple interest
+- Bash script (`simple-interest.sh`) for command-line usage
+- Input validation to ensure accurate results
+- Responsive design that works on all devices
+
+## Getting Started
+
+### Web Application
+Simply open `index.html` in any modern web browser.
+
+### Bash Script
+```bash
+chmod +x simple-interest.sh
+./simple-interest.sh
+```
+
+## Project Structure
+```
+├── index.html              # Web-based Simple Interest Calculator
+├── simple-interest.sh      # Bash script for Simple Interest calculation
+├── README.md               # Project documentation
+├── LICENSE                 # Apache 2.0 License
+├── CODE_OF_CONDUCT.md     # Code of Conduct
+└── CONTRIBUTING.md        # Contribution guidelines
+```
+
+## License
+This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
+
+## Author
+Developed as part of the IBM Developer Skills Network — Introduction to Git and GitHub course.
